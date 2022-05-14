@@ -1,0 +1,8 @@
+# Node modules
+old-versions-experiment/node_modules
+
+# Adonis directory for storing tmp files
+old-versions-experiment/tmp
+
+# Environment variables, never commit this file
+old-versions-experiment/.env
