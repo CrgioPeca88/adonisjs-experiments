@@ -19,5 +19,5 @@ const Route = use('Route')
 Route.group(() => {
   Route.post('/users/login', 'UserController.login');
   Route.post('/users/create', 'UserController.store');
-  Route.get('/projects', 'ProjectController.index');
+  Route.get('/projects', 'ProjectController.index').middleware('auth');
 }).prefix('api/v1');
